@@ -4,8 +4,7 @@ const notes = require('./db/db.json');
 const fs = require('fs');
 
 const app = express();
-const PORT =  3000;
-//process.env.PORT ||
+const PORT = 5000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
